@@ -95,21 +95,21 @@ function Products() {
         <div className={"scope-title"}>PRODUCTS</div>
         <div className={"slider-container"}>
           <Slider {...sliderSettings} className="industries-slider">
-            <Link to={'/sodium-benzoate'} style={{textDecoration:'none', color:'white'}}>
+            <Link to={'/swk-industries/sodium-benzoate'} style={{textDecoration:'none', color:'white'}}>
             <div className="industries-slider__slider part">
               <div className={"product-info"}>
                 SODIUM BENZOATE
               </div>
             </div>
           </Link>
-            <Link to={'/benzoic-acid'} style={{textDecoration:'none', color:'white'}}>
+            <Link to={'/swk-industries/benzoic-acid'} style={{textDecoration:'none', color:'white'}}>
             <div className="industries-slider__slider part">
               <div className={"product-info"}>
                 BENZOIC ACID
               </div>
             </div>
           </Link>
-            <Link to={'/titanium-dioxide'} style={{textDecoration:'none', color:'white'}}>
+            <Link to={'/swk-industries/titanium-dioxide'} style={{textDecoration:'none', color:'white'}}>
             <div className="industries-slider__slider part">
               <div className={"product-info"}>
                 TITANIUM DIOXIDE

@@ -63,9 +63,9 @@ function App() {
             )}
           </>}/>
           <Route path="/swk-industries/about" element={<Products/>}/>
-          <Route path="/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
-          <Route path="/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
-          <Route path="/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
+          <Route path="/swk-industries/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
+          <Route path="/swk-industries/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
+          <Route path="/swk-industries/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
         </Routes>
     </div>
   );
