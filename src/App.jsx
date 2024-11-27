@@ -46,7 +46,7 @@ function App() {
     // </>
     <div className="App">
         <Routes>
-          <Route path="/" element={<>
+          <Route path="/swkindustries" element={<>
             {showLogo ? (
               <div className="initial-logo-container">
                 <img src={logo} className="initial-logo" alt="logo"/>
