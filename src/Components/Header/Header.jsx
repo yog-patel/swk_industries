@@ -11,17 +11,17 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className={"header-links"} href="/#Home">
+            <a className={"header-links"} href="/swkindustries/#Home">
               HOME
             </a>
           </li>
           <li className="nav-item">
-            <a className={"header-links"} href="/#Products">
+            <a className={"header-links"} href="/swkindustries/#Products">
               PRODUCTS
             </a>
           </li>
           <li className="nav-item">
-            <a className={"header-links"} href="/#Contact">
+            <a className={"header-links"} href="/swkindustries/#Contact">
               CONTACT
             </a>
           </li>

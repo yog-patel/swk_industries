@@ -62,7 +62,7 @@ function App() {
               </div>
             )}
           </>}/>
-          <Route path="/about" element={<Products/>}/>
+          <Route path="/swkindustries/about" element={<Products/>}/>
           <Route path="/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
           <Route path="/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
           <Route path="/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
