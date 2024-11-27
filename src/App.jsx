@@ -46,7 +46,7 @@ function App() {
     // </>
     <div className="App">
         <Routes>
-          <Route path="/swkindustries" element={<>
+          <Route path="/swk-industries" element={<>
             {showLogo ? (
               <div className="initial-logo-container">
                 <img src={logo} className="initial-logo" alt="logo"/>
@@ -62,10 +62,10 @@ function App() {
               </div>
             )}
           </>}/>
-          <Route path="/swkindustries/about" element={<Products/>}/>
-          <Route path="/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
-          <Route path="/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
-          <Route path="/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
+          <Route path="/swk-industries/about" element={<Products/>}/>
+          <Route path="/swk-industries/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
+          <Route path="/swk-industries/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
+          <Route path="/swk-industries/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
         </Routes>
     </div>
   );
