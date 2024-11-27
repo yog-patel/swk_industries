@@ -1,0 +1,143 @@
+.footer{
+    height: 45vh;
+    background-color: var(--color3);
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    padding: 5vh 5% 5vh 5%;
+    color: var(--color5);
+    display: flex;
+    flex-direction: column;
+    /*margin: 0 5% 0 5%;*/
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.logo-footer{
+    height: 8vh;
+}
+.svg-img{
+    height: 8vh;
+}
+
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: row;
+    font-size: 1.7rem;
+    margin-bottom: 3vh;
+
+}
+
+.footer-left{
+    width: 40%;
+    .company-info{
+        font-size: 1.2rem;
+        /*text-align: center;*/
+        text-justify: inter-word;
+    }
+}
+.footer-right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .location-area{
+        text-align: center;
+        text-justify: inter-word;
+    }
+    .location-info{
+        font-size: 1.7rem;
+        margin-bottom: 3vh;
+    }
+}
+.footer-mid{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .email-info{
+        font-size: 1.7rem;
+        margin-bottom: 3vh;
+    }
+    .email-add{
+        display: flex;
+        /*align-items: center;*/
+        flex-direction: column;
+        /*justify-content: center;*/
+    }
+}
+
+.footer-line{
+    margin: 3vh auto 0 auto;
+}
+
+.footer-bottom{
+    margin-top: 3vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@media (max-width: 1200px) {
+    .footer{
+        height: 85vh;
+    }
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-left, .footer-mid, .footer-right {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 3vh 5%;
+        height: auto;
+    }
+    .footer-logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-left .company-info {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .footer-right .location-info, .footer-mid .email-info {
+        font-size: 1.2rem;
+    }
+    .footer-right .location-area, .footer-mid .email-add {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .footer-top {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer-bottom {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+
+

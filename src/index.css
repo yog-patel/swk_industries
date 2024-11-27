@@ -1,0 +1,26 @@
+:root{
+    --color1:#FFFFFF;
+    --color2: rgb(245, 245, 245);
+    --color3:#D9D9D9;
+    --color4:#797979;
+    --color5:#000;
+    --primaryFont: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    --secondaryFont: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: var(--color2);*/
+    font-family: 'Lora', serif;
+    /*overflow-x: hidden;*/
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /*overflow-x: hidden;*/
+    width: 102vw;
+}

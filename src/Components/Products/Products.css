@@ -1,0 +1,169 @@
+.products-section {
+    background: var(--color2);
+    height: 100vh;
+}
+
+.scope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12vh 5vw 0 5vw;
+}
+
+.scope-title {
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scope-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.industries-served-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vh 3vw 5vh 3vw;
+}
+
+.industry-logo{
+    height: 30vh;
+    width: 28%;
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    position: relative; /* Needed for child absolute positioning */
+    transition: background-color .5s, padding-top .5s; /* Smooth hover effect */
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.industry-logo-info {
+    padding-top: 5vh;
+    font-size: 1.3rem;
+    color: var(--color5); /* Default text color */
+    transition: color .5s, padding-top .5s, font-size .5s; /* Smooth transition */
+}
+
+.industry-logo-details {
+    position: absolute; /* Position relative to parent container */
+    bottom: 5%; /* Positioning to appear from the middle */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    opacity: 0; /* Start invisible */
+    visibility: hidden; /* Ensure it’s not focusable when hidden */
+    text-align: center;
+    text-justify: inter-word;
+    padding: 2vh 2vw;
+    /*color: rgb(0, 82, 176); !* Default hidden color *!*/
+    transition: opacity .5s, visibility .5s, transform .5s; /* Smooth fade-in effect */
+}
+
+#Layer_1, #Layer_2 {
+    height: 10vh;
+    fill: rgb(0, 82, 176);
+    transition: fill .5s, height .5s; /* Smooth SVG transition */
+}
+
+.industry-logo:hover {
+    background-color: rgb(0, 82, 176); /* Change background color smoothly */
+    padding-top: 2vh; /* Adjust padding */
+}
+
+.industry-logo:hover .industry-logo-info {
+    color: var(--color3); /* Change text color */
+    padding-top: 2vh; /* Adjust padding */
+    font-size: 1.1rem; /* Adjust font size */
+}
+
+.industry-logo:hover .industry-logo-details {
+    opacity: 1; /* Make visible */
+    visibility: visible; /* Allow interaction */
+    transform: translateX(-50%) translateY(-10%); /* Appear smoothly from below */
+    color: var(--color3); /* Adjust text color */
+}
+
+.industry-logo:hover #Layer_1,
+.industry-logo:hover #Layer_2 {
+    fill: var(--color3); /* Change SVG fill color */
+    height: 5vh; /* Adjust SVG size */
+}
+
+.industries-slider{
+    background-color: var(--color2);
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+}
+.slider-container{
+    /*height: 20vh;*/
+    width: 100vw;
+}
+.product-info{
+    margin-left: 5vw;
+    height: 20vh;
+    width: 80%;
+    background-color: rgb(0, 82, 176);
+    border-radius: 5vh;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--color2);
+    text-align: center;
+    text-justify: inter-word;
+
+}
+
+.products-hr{
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+
+.industries-slider__slider:hover{
+    .product-info{
+        font-size: 2.2rem;
+        background-color: rgb(0, 103, 213);
+        transition: fill .5s, height .5s;
+    }
+}
+@media (max-width: 1200px) {
+    .industry-logo{
+        height: 35vh;
+    }
+}
+@media (max-width: 768px){
+    .industry-logo{
+        height: 45vh;
+    }
+}
+@media (max-width: 480px) {
+    .scope-title{
+        font-size: 1.7rem;
+    }
+    .products-section{
+        height: auto;
+    }
+    .industries-served-info{
+        flex-direction: column;
+    }
+    .industry-logo{
+        width: 80vw;
+        height: 35vh;
+    }
+    .product-info{
+        margin-left: 10vw;
+    }
+}

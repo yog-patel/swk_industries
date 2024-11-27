@@ -1,0 +1,51 @@
+
+.home {
+    /*width: 100vw;*/
+    /*height: 60vh;*/
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*margin-top: 12vh;*/
+    /*z-index: -1;*/
+    background-image: url('/src/assets/vector-OCT-2020-116_generated.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-detail{
+    height: 60vh;
+    z-index: 1;
+    /*padding: 10vh 0 0 5vw;*/
+    font-size: 4rem;
+    color: var(--color2);
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    text-align: center;
+    text-justify: inter-word;
+    padding-top: 15vh;
+}
+.home-detail2{
+    padding-left: 3vw;
+    font-size: 1.5rem;
+    padding-top: 10vh;
+    /*margin-top: 2.5vh;*/
+}
+
+
+
+@media (max-width: 768px) {
+    .home{
+        height: 50vh;
+    }
+    .home-detail {
+        font-size: 10vw;
+        padding-top: 10vh;
+    }
+    .home-detail2 {
+        font-size: 1.2rem;
+        padding-top: 5vh;
+    }
+}
+
+

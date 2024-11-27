@@ -1,0 +1,132 @@
+#contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10rem 5vw;
+    font-family: Arial, sans-serif;
+    background-color: var(--color2);
+}
+.contact{
+    background-color: var(--color2);
+    height: 100vh;
+}
+.space{
+    padding: 5vh;
+}
+.contact-hr{
+   margin-left: 10vw;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.left-section h2 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.left-section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.right-section {
+    flex: 2;
+    padding-left: 12vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.name {
+    display: flex;
+    gap: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 0.5;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+    min-height: 6rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(0, 82, 176);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px){
+    .left-section {
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact {
+        padding: 2rem;
+    }
+    .contact #contact {
+        padding: 1rem;
+        flex-direction: column;
+    }
+    .left-section{
+        h2{
+            padding-left: 15vw;
+            width: 100vw;
+
+        }
+        p{
+            display: none;
+        }
+
+    }
+    .right-section {
+        width: 100%;
+        margin-bottom: 2rem;
+        padding-left: 2vw;
+    }
+    .input-group input, .input-group textarea, button {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+}
