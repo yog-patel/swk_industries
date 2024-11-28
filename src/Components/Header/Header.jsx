@@ -1,5 +1,6 @@
 import "./Header.css";
 import logo from "/src/assets/2onCfcMlLHgB2bFtT4LCtLxw92H.svg"
+import {Link} from "react-router-dom";
 function Header() {
   return (
     <header className="header">
@@ -25,12 +26,15 @@ function Header() {
               CONTACT
             </a>
           </li>
-          <li className="nav-item">
-            <a className={"header-links"} href="/swk-industries/about">
+
+          <Link className={"header-links"} to={'/swk-industries/about'}
+                style={{textDecoration: 'none', color: '#797979FF'}}>
+            <li className="nav-item">
               ABOUT
-            </a>
-          </li>
-        </ul>
+            </li>
+          </Link>
+
+      </ul>
       </nav>
     </header>
   )

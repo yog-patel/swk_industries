@@ -101,7 +101,7 @@ function Products() {
                 SODIUM BENZOATE
               </div>
             </div>
-          </Link>
+            </Link>
             <Link to={'/swk-industries/benzoic-acid'} style={{textDecoration:'none', color:'white'}}>
             <div className="industries-slider__slider part">
               <div className={"product-info"}>
