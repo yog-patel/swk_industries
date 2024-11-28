@@ -1,0 +1,126 @@
+.about-container {
+    /*padding: 2rem;*/
+    padding: 5vh 10vw 5vh 10vw;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.about-section {
+    h2{
+
+    }
+    line-height: 1.6;
+    flex: 1;
+    min-width: 300px;
+    margin: 0 auto 0 auto;
+    max-width: 90%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.about-content {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.about-content strong {
+    color: #000;
+}
+
+.vision-mission {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.vision,
+.mission {
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vision h2,
+.mission h2, .values-section h2, .about-section h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.vision p,
+.mission p, .values-section li {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.values-section{
+    margin: 2rem auto 2rem auto;
+    /*flex: 1;*/
+    min-width: 300px;
+    max-width: 55%;
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*text-align: center;*/
+    /*text-justify: inter-word;*/
+}
+
+@media (max-width: 768px) {
+    .vision-mission {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vision,
+    .mission, .values-section {
+        max-width: 100%;
+    }
+}
+
+/*.about-container h1 {*/
+/*    text-align: center;*/
+/*    color: #333;*/
+/*    margin-bottom: 1rem;*/
+/*    font-size: 2.5rem;*/
+/*}*/
+
+/*.about-content {*/
+/*    text-align: justify;*/
+/*    margin: 0 auto;*/
+/*    max-width: 800px;*/
+/*    line-height: 1.6;*/
+/*    font-size: 1.1rem;*/
+/*    color: #555;*/
+/*}*/
+
+/*.about-content strong {*/
+/*    color: #000;*/
+/*}*/

@@ -10,6 +10,7 @@ import Contact from "./Components/Contact/Contact.jsx";
 import SodiumBenzoate from "./Components/Products/ChemicalsInfo/SodiumBenzoate.jsx";
 import TitaniumDioxide from "./Components/Products/ChemicalsInfo/TitaniumDioxide.jsx";
 import BenzoicAcid from "./Components/Products/ChemicalsInfo/BenzoicAcid.jsx";
+import About from "./Components/About/About.jsx";
 
 
 
@@ -62,10 +63,11 @@ function App() {
               </div>
             )}
           </>}/>
-          <Route path="/swk-industries/about" element={<Products/>}/>
+          {/*<Route path="/swk-industries/about" element={<Products/>}/>*/}
           <Route path="/swk-industries/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
           <Route path="/swk-industries/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
           <Route path="/swk-industries/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
+          <Route path="/swk-industries/about" element={<><Header/><About/><Footer/></>}/>
         </Routes>
     </div>
   );

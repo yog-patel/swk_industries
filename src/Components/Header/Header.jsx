@@ -25,6 +25,11 @@ function Header() {
               CONTACT
             </a>
           </li>
+          <li className="nav-item">
+            <a className={"header-links"} href="/swk-industries/about">
+              ABOUT
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
