@@ -8,9 +8,11 @@ import logo from "./assets/2onCfcMlLHgB2bFtT4LCtLxw92H.svg";
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 import Contact from "./Components/Contact/Contact.jsx";
 import SodiumBenzoate from "./Components/Products/ChemicalsInfo/SodiumBenzoate.jsx";
-import TitaniumDioxide from "./Components/Products/ChemicalsInfo/TitaniumDioxide.jsx";
+import TitaniumDioxideIP from "./Components/Products/ChemicalsInfo/TitaniumDioxideIP.jsx";
 import BenzoicAcid from "./Components/Products/ChemicalsInfo/BenzoicAcid.jsx";
 import About from "./Components/About/About.jsx";
+import TitaniumDioxideRutile from "./Components/Products/ChemicalsInfo/TitaniumDioxideRutile.jsx";
+import TitaniumDioxideAnatase from "./Components/Products/ChemicalsInfo/TitaniumDioxideAnatase.jsx";
 
 
 
@@ -66,7 +68,9 @@ function App() {
           {/*<Route path="/swk-industries/about" element={<Products/>}/>*/}
           <Route path="/swk-industries/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
           <Route path="/swk-industries/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
-          <Route path="/swk-industries/titanium-dioxide" element={<><Header/><TitaniumDioxide/><Footer/></>}/>
+          <Route path="/swk-industries/titanium-dioxide-ip" element={<><Header/><TitaniumDioxideIP/><Footer/></>}/>
+          <Route path="/swk-industries/titanium-dioxide-rutile" element={<><Header/><TitaniumDioxideRutile/><Footer/></>}/>
+          <Route path="/swk-industries/titanium-dioxide-anatase" element={<><Header/><TitaniumDioxideAnatase/><Footer/></>}/>
           <Route path="/swk-industries/about" element={<><Header/><About/><Footer/></>}/>
         </Routes>
     </div>

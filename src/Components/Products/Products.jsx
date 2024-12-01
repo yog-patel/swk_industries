@@ -109,12 +109,26 @@ function Products() {
               </div>
             </div>
           </Link>
-            <Link to={'/swk-industries/titanium-dioxide'} style={{textDecoration:'none', color:'white'}}>
+            <Link to={'/swk-industries/titanium-dioxide-ip'} style={{textDecoration:'none', color:'white'}}>
             <div className="industries-slider__slider part">
               <div className={"product-info"}>
-                TITANIUM DIOXIDE
+                TITANIUM DIOXIDE IP
               </div>
             </div>
+            </Link>
+            <Link to={'/swk-industries/titanium-dioxide-rutile'} style={{textDecoration:'none', color:'white'}}>
+              <div className="industries-slider__slider part">
+                <div className={"product-info"}>
+                  TITANIUM DIOXIDE RUTILE
+                </div>
+              </div>
+            </Link>
+            <Link to={'/swk-industries/titanium-dioxide-anatase'} style={{textDecoration:'none', color:'white'}}>
+              <div className="industries-slider__slider part">
+                <div className={"product-info"}>
+                  TITANIUM DIOXIDE ANATASE
+                </div>
+              </div>
             </Link>
           </Slider>
         </div>

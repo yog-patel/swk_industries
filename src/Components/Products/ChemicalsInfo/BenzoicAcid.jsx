@@ -8,7 +8,7 @@ const BenzoicAcid = () => {
         <h1>BENZOIC ACID</h1>
       </header>
       <p className={"chemical-info-description"}>
-        Swastik industries is a strong supplier of Benzoic Acid. We offer world class quality benzoic acid, a product used in the paints and coatings industry and in alkyd composite resins.
+        SWK industries is a strong supplier of Benzoic Acid. We offer world class quality benzoic acid, a product used in the paints and coatings industry and in alkyd composite resins.
         <br/>
         Benzoic acid is the most basic of aromatic carboxylic acids. This product is a building block used in the manufacture of many end products including alkyd resins. When used in alkyd resin applications, it improves gloss, hardness and chemical resistance. Benzoic acid is also used in other applications including pharmaceuticals, personal care and select industrial applications. Benzoic acid can be used as a preservative given that it increases storage stability and mitigates corrosion when used in emulsion formulations, liquid detergents, paints, polishes and waxes.
       </p>

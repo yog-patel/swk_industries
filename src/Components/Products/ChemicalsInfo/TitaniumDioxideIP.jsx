@@ -1,14 +1,14 @@
 // import React from "react";
 import "./ChemicalsInfo.css";
 
-const TitaniumDioxide = () => {
+const TitaniumDioxideIP = () => {
   return (
     <div className="container">
       <header className="header">
         <h1>Titanium Dioxide IP</h1>
       </header>
       <p className={"chemical-info-description"}>
-        Swastik industries is pioneer in the manufacturing of Titanium Dioxide IP. In the pharmaceutical industry, titanium dioxide is used in most sunscreens to block UVA and UVB rays, similar to zinc oxide. It is also commonly used as pigment for pharmaceutical products such as gelatine capsules, tablet coatings and syrups. In the cosmetics industry, it is used in toothpaste, lipsticks, creams, ointments and powders. It can be used as an opacifier to make pigments opaque.
+        In the pharmaceutical industry, titanium dioxide is used in most sunscreens to block UVA and UVB rays, similar to zinc oxide. It is also commonly used as pigment for pharmaceutical products such as gelatine capsules, tablet coatings and syrups. In the cosmetics industry, it is used in toothpaste, lipsticks, creams, ointments and powders. It can be used as an opacifier to make pigments opaque.
       </p>
       <section className="specifications">
         <h2>Specification</h2>
@@ -77,4 +77,4 @@ const TitaniumDioxide = () => {
   );
 };
 
-export default TitaniumDioxide;
+export default TitaniumDioxideIP;
