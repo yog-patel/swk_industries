@@ -12,22 +12,22 @@ function Header() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className={"header-links"} href="/swk-industries/#Home">
+            <a className={"header-links"} href="/swk_industries/#Home">
               HOME
             </a>
           </li>
           <li className="nav-item">
-            <a className={"header-links"} href="/swk-industries/#Products">
+            <a className={"header-links"} href="/swk_industries/#Products">
               PRODUCTS
             </a>
           </li>
           <li className="nav-item">
-            <a className={"header-links"} href="/swk-industries/#Contact">
+            <a className={"header-links"} href="/swk_industries/#Contact">
               CONTACT
             </a>
           </li>
 
-          <Link className={"header-links"} to={'/swk-industries/about'}
+          <Link className={"header-links"} to={'/swk_industries/about'}
                 style={{textDecoration: 'none', color: '#797979FF'}}>
             <li className="nav-item">
               ABOUT

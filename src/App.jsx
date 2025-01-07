@@ -49,7 +49,7 @@ function App() {
     // </>
     <div className="App">
         <Routes>
-          <Route path="/swk-industries" element={<>
+          <Route path="/swk_industries" element={<>
             {showLogo ? (
               <div className="initial-logo-container">
                 <img src={logo} className="initial-logo" alt="logo"/>
@@ -66,12 +66,12 @@ function App() {
             )}
           </>}/>
           {/*<Route path="/swk-industries/about" element={<Products/>}/>*/}
-          <Route path="/swk-industries/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
-          <Route path="/swk-industries/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
-          <Route path="/swk-industries/titanium-dioxide-ip" element={<><Header/><TitaniumDioxideIP/><Footer/></>}/>
-          <Route path="/swk-industries/titanium-dioxide-rutile" element={<><Header/><TitaniumDioxideRutile/><Footer/></>}/>
-          <Route path="/swk-industries/titanium-dioxide-anatase" element={<><Header/><TitaniumDioxideAnatase/><Footer/></>}/>
-          <Route path="/swk-industries/about" element={<><Header/><About/><Footer/></>}/>
+          <Route path="/swk_industries/sodium-benzoate" element={<><Header/><SodiumBenzoate/><Footer/></>}/>
+          <Route path="/swk_industries/benzoic-acid" element={<><Header/><BenzoicAcid/><Footer/></>}/>
+          <Route path="/swk_industries/titanium-dioxide-ip" element={<><Header/><TitaniumDioxideIP/><Footer/></>}/>
+          <Route path="/swk_industries/titanium-dioxide-rutile" element={<><Header/><TitaniumDioxideRutile/><Footer/></>}/>
+          <Route path="/swk_industries/titanium-dioxide-anatase" element={<><Header/><TitaniumDioxideAnatase/><Footer/></>}/>
+          <Route path="/swk_industries/about" element={<><Header/><About/><Footer/></>}/>
         </Routes>
     </div>
   );
